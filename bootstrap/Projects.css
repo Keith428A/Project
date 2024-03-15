@@ -1,0 +1,91 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 255, 0.5); /* Transparent blue */
+    padding: 20px 0;
+}
+
+.navbar .nav-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.navbar .nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease; /* Transition effect for color change */
+}
+
+.navbar .nav-links li a:hover {
+    color: #ff0000; /* Change color on hover */
+}
+
+.hero-section {
+    background-image: url(Images/close-up-students-studying-together.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.projects-section {
+    padding: 50px 0;
+}
+
+.projects-section .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.projects-section .column {
+    flex-basis: calc(50% - 20px);
+    text-align: center;
+}
+
+.projects-section .column img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.projects-section .column h3 {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #083be4;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

@@ -9,20 +9,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar p-0">
-            <div class="container">
-                
-                <ul class="nav-links">
-                    <li><a class="navbar-brand " href="Home.html"><img src="Images/pngegg.png" width="60px">
-                    </a></li>
-                    <li><a href="Home.html">Home</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="Services.html">Services</a></li>
-                    <li><a href="Projects.html">Projects</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+    <?php include_once ('nav.html') ?>
     </header>
 
     <section class="contact-section">
