@@ -15,11 +15,11 @@
     <section class="contact-section">
         <div class="container">
             <h2 style="text-align: center; border-radius: 5px;" class="text-bg-light">Contact Us</h2>
-            <form class="contact-form">
-                <input type="text" name="name" placeholder="Your Name">
-                <input type="email" name="email" placeholder="Your Email">
-                <textarea name="message" placeholder="Your Message"></textarea>
-                <button type="submit">Send Message</button>
+            <form  class="contact-form" action="dbcontact_form.php">
+                <input type="text" id="name" name="name" placeholder="Your Name">
+                <input type="email"id="email" name="email" placeholder="Your Email">
+                <textarea type="text"id="message" name="message" placeholder="Your Message"></textarea>
+                <button type="submit" value="submit">Submit</button>
             </form>
         </div>
     </section>
