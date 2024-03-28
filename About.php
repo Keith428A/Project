@@ -71,11 +71,7 @@
         <br>  
     </section>
         <div class="row">
-            <div class="column">Column 1</div>
-            <div class="column">Column 2</div>
-            <div class="column">Column 3</div>
-            <div class="column">Column 4</div>
-            <div class="column">Column 5</div>
+
         </div>
     
 
